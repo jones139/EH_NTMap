@@ -29,7 +29,7 @@ function loadTagQueryData() {
     // argument, layerName which is the name of the Layer just loaded, so that we only need one
     // loadDataSuccess function, no matter how many files we need to load.
     jQuery.getJSON(
-	dataURL+"brewmap_tagQuery.json",
+	dataURL+"tagQuery.json",
 	bound_loadTagQuerySuccess("tagQuery")
 	);
 }
